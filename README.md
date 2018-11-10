@@ -1,2 +1,2 @@
 # PythonWorkShop
-希望大家进步！
+希望大家共同进步！
