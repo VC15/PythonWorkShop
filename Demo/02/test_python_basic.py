@@ -46,13 +46,13 @@ print("The input number is ", number)
 # If and ELSE
 if number > 5:
     print("The input number is larger than 5.")
-elif number < 4:
-    print("The input number is smaller than 4.")
+elif number < 5:
+    print("The input number is smaller than 5.")
 else:
-    print("The input number is actually 4.")
+    print("The input number is actually 5.")
 
 # For Loop
-number2 = number // 5 + 1
+number2 = number % 5 + 1
 for i in range(number2):
     print(i)
 

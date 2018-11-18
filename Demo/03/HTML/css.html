@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			/*css代码*/
+			#box{
+				/*这里的代码就表示告诉浏览器应该把html标签修饰成什么样子*/
+				/*color表示设置颜色*/
+				color: blue;
+			}
+			/*类选择器*/
+			.box2{
+				color: green; 
+			}
+			/*#p1{
+				color: red;
+			}
+			#p2{
+				color: red;
+			}*/
+			p{
+				color: red;
+			}
+		</style>
+		<!--这种方式的好处：让html代码和css代码分离 方便维护-->
+		<!--<link rel="stylesheet" type="text/css" href="style/index.css"/>-->
+		
+	</head>
+	<body>
+		<!--通过自定义名字来产生关联-->
+		<!--<div style="color: green;">这是一个盒子</div>-->
+		<div id="box">这是一个box</div>
+		<div class="box2">
+			这是box2
+		</div>
+		<!--需求：把p标签里面的字体都设置成红色-->
+		<p>这是p1</p>
+		<p>这是p2</p>
+		<p>这是p3</p>
+		<p>这是p4</p>
+	</body>
+</html>
